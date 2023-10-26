@@ -1,6 +1,6 @@
 import React from "react";
 import MovieCard from "../../conponents/movieCard/MovieCard";
-import { useFetch } from "../../hooks/UseFetch";
+import { useFetch } from "../../hooks/useFetch";
 import useAuth from "../../hooks/useAuth";
 import { useCustomParams } from "../../hooks/useCustomParsms";
 

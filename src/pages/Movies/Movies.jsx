@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useFetch } from "../../hooks/UseFetch";
+import { useFetch } from "../../hooks/useFetch";
 import MovieCard from "../../conponents/movieCard/MovieCard";
 import { useCustomParams } from "../../hooks/useCustomParsms";
 import SearchResults from "../Home/SearchResults";
