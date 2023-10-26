@@ -1,8 +1,7 @@
 import React from "react";
-import { useFetch } from "../../hooks/UseFetch";
+import { useFetch } from "../../hooks/useFetch";
 import MovieCard from "../../conponents/movieCard/MovieCard";
 import { useCustomParams } from "../../hooks/useCustomParsms";
-import Loading from "../../utilis/Loading";
 
 const TvSeries = () => {
   const { data, error, loading, updateUI } = useFetch("/api/movie/series");
